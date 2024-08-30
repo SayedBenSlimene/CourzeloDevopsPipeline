@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/pathologie")
 @RestController
 public class PathologieController {
-
+//fgvbfgbfgbfgb
      @Autowired
      IPathologieService iPathologieService;
 
