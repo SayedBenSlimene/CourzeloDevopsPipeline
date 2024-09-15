@@ -1,4 +1,4 @@
-name: Build & Deploy Spring app2
+name: Build & Deploy Spring app1
 
 on:
   push:
@@ -26,4 +26,3 @@ jobs:
         run: |
           mvn clean
           mvn -B package --file pom.xml
-          
