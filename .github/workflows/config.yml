@@ -1,4 +1,4 @@
-name: Build & Deploy Spring app1
+name: Build Afdvfv
 
 on:
   push:
@@ -26,3 +26,4 @@ jobs:
         run: |
           mvn clean
           mvn -B package --file pom.xml
+          
